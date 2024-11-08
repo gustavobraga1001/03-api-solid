@@ -1,9 +1,10 @@
 {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
     "[prisma]": {
         "editor.formatOnSave": true
-    }
+    },
+    "editor.defaultFormatter": "Prisma.prisma" // define Prisma como o formatador padrão
 }
